@@ -1,0 +1,100 @@
+/* ============================================================
+   Sayanox Sample Site — deliberately verbose CSS
+   Comments, redundant values & whitespace = minifier playground
+   ============================================================ */
+
+/* --- Reset-ish section --- */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #222222;
+  background-color: #fafafa;
+}
+
+/* --- Header --- */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 32px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  background-color: #0b1e3f;
+  color: #ffffff;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.site-header nav a {
+  color: #9fd3ff;
+  text-decoration: none;
+  margin-left: 18px;
+  transition: color 0.2s ease-in-out;
+}
+
+.site-header nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* --- Sections --- */
+main {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+h2 {
+  margin-bottom: 16px;
+  color: #0b1e3f;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+code {
+  background-color: #eef2f7;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Consolas', 'Menlo', monospace;
+}
+
+/* --- Footer --- */
+footer {
+  text-align: center;
+  padding: 24px;
+  background-color: #0b1e3f;
+  color: #8aa4c8;
+}
+
+/* --- Unused legacy block kept on purpose --- */
+.legacy-sidebar-2019 {
+  float: left;
+  width: 240px;
+  background: #eeeeee;
+  border-right: 1px solid #cccccc;
+  display: none;
+}
