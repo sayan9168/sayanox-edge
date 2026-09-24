@@ -1,0 +1,6 @@
+node_modules/
+dist/
+dist-sample/
+*.log
+.DS_Store
+cloudflare-rules.json

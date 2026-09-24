@@ -1,0 +1,49 @@
+{
+  "name": "sayanox-edge",
+  "version": "1.0.0",
+  "description": "Ultra-fast static site optimizer & Cloudflare performance toolkit. Minify HTML/CSS/JS, optimize images to WebP, generate cache headers, and get Cloudflare recommendations — in one command.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "sayanox-edge": "./bin/sayanox-edge.js"
+  },
+  "scripts": {
+    "start": "node bin/sayanox-edge.js",
+    "test": "node bin/sayanox-edge.js optimize examples/sample-site --out dist-sample && node bin/sayanox-edge.js cf-rules examples/sample-site",
+    "demo": "node bin/sayanox-edge.js optimize examples/sample-site --out dist-sample --webp"
+  },
+  "keywords": [
+    "sayanox",
+    "performance",
+    "optimizer",
+    "cloudflare",
+    "minify",
+    "lag",
+    "static-site",
+    "webp",
+    "cache-headers",
+    "github-pages",
+    "vercel",
+    "cli"
+  ],
+  "author": "Sayan Mahata <sayan9168> (Founder of Sayanox)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "clean-css": "^5.3.3",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "html-minifier-terser": "^7.2.0",
+    "ora": "^8.1.0",
+    "sharp": "^0.33.5",
+    "terser": "^5.31.6"
+  }
+}
