@@ -114,7 +114,7 @@ Sayanox ইকোসিস্টেমের অংশ হিসেবে — �
 ### Next Steps for you
 1. `package.json` বানিয়ে CLI স্ক্যাফোল্ড করো
 2. Phase 1 এর ৬টা ফিচার এক এক করে ইমপ্লিমেন্ট করো
-3. নিজের `sayan9168.github.io` দিয়ে টেস্ট করো
-4. Web UI বা GitHub Action পরে যোগ করো
+3. 
+4. Web UI বা GitHub Action পরে যোগ কর
 
 প্রশ্ন থাকলে Issues-এ খোলো। Build in public. 🚀
